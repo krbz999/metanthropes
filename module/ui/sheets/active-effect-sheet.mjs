@@ -33,11 +33,10 @@ export class MetanthropesActiveEffectSheet extends DocumentSheet {
 			async: true,
 			secrets: this.object.isOwner,
 		});
-		const legacyTransfer = CONFIG.ActiveEffect.legacyTransferral;
 		const labels = {
 			transfer: {
-				name: game.i18n.localize(`EFFECT.Transfer${legacyTransfer ? "Legacy" : ""}`),
-				hint: game.i18n.localize(`EFFECT.TransferHint${legacyTransfer ? "Legacy" : ""}`),
+				name: game.i18n.localize(`EFFECT.Transfer`),
+				hint: game.i18n.localize(`EFFECT.TransferHint`),
 			},
 		};
 		const metaEffectTypeOptions = ["Buff", "Condition"];
