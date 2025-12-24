@@ -9,7 +9,7 @@ $icon-property         : --fa !default;
 
 $display               : inline-block !default;
 
-$fw-width              : calc((20/16) * 1em) !default;
+$fw-width              : calc((20/16) * 1em) !default; //*qp
 $inverse               : #fff !default;
 
 $border-box-sizing     : content-box !default;
@@ -50,7 +50,7 @@ $stack-z-index         : auto !default;
 
 // web fonts-related variables
 $font-display          : block !default;
-$font-path             : "../assets/fonts/fontawesome" !default;
+$font-path             : "../assets/fonts/fontawesome" !default; //*qp
 
 // deprecated: these older SCSS variables will be removed with Font Awesome's next major release
 $style-family          : $family;

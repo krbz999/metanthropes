@@ -5,7 +5,7 @@
 #pause figcaption {
 	font-family: $font-title;
 }
-//override filepicker list defaults
+//* Filepicker
 .filepicker .tiles-list {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);

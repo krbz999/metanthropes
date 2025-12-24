@@ -1,3 +1,9 @@
+
+/**
+ * !Review & match colors with _colors.scss
+ * Used for coloring Font Awesome icons based on the result
+ *
+ */
 export const colors = Object.freeze({
 	primary: "#00b0bc",
 	secondary: "#945d90",
