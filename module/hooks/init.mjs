@@ -85,7 +85,7 @@ Hooks.once("init", async function () {
 	});
 
 	//* V14 Active Effects
-	//todo: run on only v14
+	//!!Hotfix for a bug with v14 prototype 2, review for V14 Stable
 	if (game.version > 14) {
 		metanthropes.utils.metaLog(3, "System", "V14+ detected, adding phases to ActiveEffects");
 		CONFIG.ActiveEffect.phases = {
