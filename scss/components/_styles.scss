@@ -611,6 +611,7 @@ h3 {
 	&:hover {
 		transform: scale(1.5) translateX(40px);
 	}
+	z-index: 5;
 }
 
 .style-tab-summary-token {
@@ -623,6 +624,7 @@ h3 {
 	&:hover {
 		transform: scale(1.5) translateX(40px);
 	}
+	z-index: 5;
 }
 
 .style-dialog-portrait {
